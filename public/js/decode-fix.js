@@ -221,6 +221,7 @@ globalThis.await = _ => _;
 globalThis.async = async a => await a();
 
 void
+
 function DedicatedWorker() {
   if (!globalThis.startDecode) {
     globalThis.startDecode = 0;
