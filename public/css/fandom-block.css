@@ -1,7 +1,6 @@
-
 HIDDEN-FORCED,
 .top-ads-container,
-.top-ads-container *, 
+.top-ads-container *,
 .global-registration-buttons,
 .global-registration-buttons *,
 .global-navigation,
@@ -26,40 +25,35 @@ HIDDEN-FORCED,
 .notifications-placeholder,
 .mobile-global-navigation__button-user,
 comment.mobile-global-navigation__user-menu,
-.notifications-box
-{
-   display: none !important;
-   visibility: hidden !important;
-   opacity: 0 !important;
-   max-height: 0px !important;
-   height: 0px !important;
-   transform: scale(0,0) !important;
-   position: absolute !important;
-   z-index: -99 !important;
+.notifications-box {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  max-height: 0px !important;
+  height: 0px !important;
+  transform: scale(0, 0) !important;
+  position: absolute !important;
+  z-index: -99 !important;
 }
 
 svg,
 img,
 video,
-iframe
-{
-  border-radius:1vmax;
-  border-style:none !important;
-  filter:drop-shadow(0 0 0.25rem black);
+iframe {
+  border-radius: 1vmax;
+  border-style: none !important;
+  filter: drop-shadow(0 0 0.25rem black);
 }
 
-[class*="gallery"]{
-   border-width:0px !important;
-   overflow:unset !important;
+[class*="gallery"] {
+  border-width: 0px !important;
+  overflow: unset !important;
 }
 
-
-.search-modal__content{
-  visibility:hidden !important;
+.search-modal__content {
+  visibility: hidden !important;
 }
 
-
-img[error][load-src]{
-  visibility:hidden !important;
+img[error][load-src] {
+  visibility: hidden !important;
 }
-
